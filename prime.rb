@@ -5,6 +5,7 @@ range.each do |num|
  if number % num == 0 
    false 
 end
-true
+
 end
+true
 end
