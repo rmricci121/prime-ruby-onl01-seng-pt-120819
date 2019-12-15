@@ -2,7 +2,9 @@
 def prime?(number)
 range = (2..(number - 1))
 range.each do |num|
-  return false if number % num == 0 
+ if number % num == 0 
+   false 
 end
 true
+end
 end
