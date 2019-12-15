@@ -6,7 +6,7 @@ if number > 1
     number % n == 0 
   end
   else
-    fasle
+    false
 
 
 
