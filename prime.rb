@@ -4,8 +4,7 @@ range = (2..(number - 1)).to_a
 range.each do |num|
  if number % num == 0 
    false 
-end
-
-end
-true
+    end
+  end
+  true
 end
