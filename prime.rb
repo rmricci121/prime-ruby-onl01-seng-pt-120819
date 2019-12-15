@@ -1,6 +1,8 @@
 # Add  code here!
-def prime?(integer)
+def prime?(number)
 range = (2..(number - 1)).to_a
+range.each do |num|
+  
   
 
 end
